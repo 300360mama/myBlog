@@ -1,0 +1,40 @@
+.buttonTogle_elem {
+  -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+.slideInLeft {
+  -webkit-animation: slideInLeft 1s forwards;
+          animation: slideInLeft 1s forwards;
+}
+.slideInRight {
+  -webkit-animation: slideInRight 1s forwards;
+          animation: slideInRight 1s forwards;
+}
+.closeTopElem {
+  -webkit-animation: closeTopElem 1s forwards;
+          animation: closeTopElem 1s forwards;
+}
+.closeTopElemReverse {
+  -webkit-animation: closeTopElemReverse 1s forwards;
+          animation: closeTopElemReverse 1s forwards;
+}
+.closeBottomElem {
+  -webkit-animation: closeBottomElem 1s forwards;
+          animation: closeBottomElem 1s forwards;
+}
+.closeBottomElemReverse {
+  -webkit-animation: closeBottomElemReverse 1s forwards;
+          animation: closeBottomElemReverse 1s forwards;
+  -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+.hideMiddleElem {
+  -webkit-animation: hideMiddleElem 1s forwards;
+          animation: hideMiddleElem 1s forwards;
+}
+.hideMiddleElemReverse {
+  -webkit-animation: hideMiddleElemReverse 1s forwards;
+          animation: hideMiddleElemReverse 1s forwards;
+}

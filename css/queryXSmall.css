@@ -1,0 +1,50 @@
+@media all and (max-width: 425px) {
+  main {
+    width: 100%;
+  }
+  main .post .article .themeSection .theme {
+    text-align: justify;
+    width: 100%;
+    font-size: 24px;
+  }
+  main .post .article .themeSection .authorArticle {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .post .article .themeSection .authorArticle section {
+    margin: 0;
+  }
+  main .post .infoArticle {
+    padding-right: 5.3%;
+  }
+  main .post .infoArticle .social {
+    display: none;
+  }
+  main .post .infoArticle .comment {
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  main .citacion {
+    display: none;
+  }
+  main .recommendedArticle_wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .recommendedArticle_wrapper .recommendedArticle_post {
+    width: 48%;
+  }
+  footer {
+    padding: 10px;
+  }
+  footer .footerInfoWrapper {
+    display: none;
+  }
+}

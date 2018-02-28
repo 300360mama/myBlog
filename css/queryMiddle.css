@@ -1,0 +1,67 @@
+/* width >=768px*/
+@media all and (max-width: 992px) {
+  .wrapper {
+    width: 100%;
+  }
+  .wrapper header {
+    height: 80px;
+    padding-top: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .wrapper header ul {
+    margin: 0;
+  }
+  .wrapper header .logo {
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+  }
+  .wrapper header .social {
+    margin: 0;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+  }
+  .wrapper header .social .fa {
+    margin-left: 7px;
+  }
+  .wrapper .banner {
+    display: none;
+  }
+  .wrapper .newsLetter {
+    margin-top: 50px;
+  }
+  .wrapper .content main {
+    width: 100%;
+  }
+  .wrapper .content main .article .themeSection .theme {
+    text-align: justify;
+    width: 100%;
+    font-size: 24px;
+  }
+  .wrapper .content main .infoArticle {
+    padding-right: 5.3%;
+  }
+  .wrapper .content aside {
+    display: none;
+  }
+  .wrapper footer .footerInfo {
+    margin: 0;
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .wrapper footer .footerInfo .tweets {
+    display: none;
+  }
+  .wrapper footer .footerInfo .follow {
+    display: none;
+  }
+  .wrapper footer .footerInfo .info {
+    -ms-flex-preferred-size: 46%;
+        flex-basis: 46%;
+  }
+}
